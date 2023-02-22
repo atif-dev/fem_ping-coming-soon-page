@@ -33,7 +33,7 @@ This is a solution to the [Ping coming soon page](https://www.frontendmentor.io/
 
 ### Links
 
-- Frontend Mentor solution url:  https://www.frontendmentor.io/solutions/social-proof-section-1fl3QQrMJN
+- Frontend Mentor solution url:  https://www.frontendmentor.io/solutions/ping-single-column-coming-soon-page-N_w2BTM8Zk
 - Live Site URL: https://atif-dev.github.io/fem_ping-coming-soon-page/
 - Google Mobile Friendly Test: https://search.google.com/test/mobile-friendly/result?id=3zwL4AB4h_oD2vr5898oHg
 - GitHub repo : https://github.com/atif-dev/fem_ping-coming-soon-page
