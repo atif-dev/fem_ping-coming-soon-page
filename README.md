@@ -26,17 +26,17 @@ This is a solution to the [Ping coming soon page](https://www.frontendmentor.io/
 
 ### Screenshots
 
-![PC View](https://github.com/atif-dev/socialProof-section/blob/main/screenshots/1440%20X%20900.png?raw=true)
-![Mobile view](https://github.com/atif-dev/socialProof-section/blob/main/screenshots/Google%20Pixel%203(5.5%20in).png?raw=true)
+![PC View](https://github.com/atif-dev/fem_ping-coming-soon-page/blob/main/screenshots/PC.png?raw=true)
+![Mobile view](https://github.com/atif-dev/fem_ping-coming-soon-page/blob/main/screenshots/mobile.png?raw=true)
 
 (Find more screentshots in screenshots directory)
 
 ### Links
 
 - Frontend Mentor solution url:  https://www.frontendmentor.io/solutions/social-proof-section-1fl3QQrMJN
-- Live Site URL: https://atif-dev.github.io/socialProof-section/
-- Google Mobile Friendly Test: https://search.google.com/test/mobile-friendly/result?id=fGdP3TB0aUmv8haIHYX7MA
-- GitHub repo : https://github.com/atif-dev/socialProof-section
+- Live Site URL: https://atif-dev.github.io/fem_ping-coming-soon-page/
+- Google Mobile Friendly Test: https://search.google.com/test/mobile-friendly/result?id=3zwL4AB4h_oD2vr5898oHg
+- GitHub repo : https://github.com/atif-dev/fem_ping-coming-soon-page
 
 ## My process
 
