@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+main{
+    
+    div{
+
+        .email-exp{
+            // background: lightblue;
+            width: 47%;
+            margin: 0 auto;
+            margin-top: .5em;
+            // text-align: center;
+            font-size: .77em;
+            font-style: italic;
+            color: red;
+        }
+
+        .second-elm:hover{
+            background: #7195F5;
+            cursor: pointer;
+        }
+    }
+}
+
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+
+    span{
+        color: #5783FF;
+    }
+}
+
+.announcement{
+    // font-weight: 300;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 59%);
+    
+
+    .ann-time{
+        color: black;
+        font-weight: 700;
+    }
+
+    margin-top: .8em;
+    text-align: center;
+}
+
+.sub{
+    text-align: center;
+    margin-top: .5em;
+    color: black;
+    // font-weight: 500;
+    font-size: 1.1rem;
+}
+
+form{
+    // text-align: center;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    margin-top: 2em;
+    // background: red;
+}
+
+.form-elm{
+    padding: 1.3em 0;
+    outline: none;
+
+    // display: inline;
+}
+
+.first-elm{
+    width: 35%;
+    padding-left: 1.5em;
+    border-radius: 3em;
+    border: 1px solid hsl(0, 0%, 59%);
+}
+
+input[type="email"] {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1rem;
+    color: red;
+}  
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #D4D7DE;
+    opacity: 1; /* Firefox */
+}
+
+  
+
+.second-elm{
+    padding: 0 3.5em;
+    background: hsl(223, 87%, 63%);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3em;
+
+    box-shadow:0px 5px 10px 5px #E2E8F8;
+}
+
+.form-elm + .form-elm{
+    margin-left: 1em;
+}
+
+.dashboard img{
+    width: 50%;
+    // max-width: 50%;
+}
+
+.dashboard{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 4.5em;
+   
+    // background: red;
+}
+
+.facebook-icon, .instagram-icon, .twitter-icon{
+    width: 25px;
+    
+}
+
+footer div{
+    display: flex;
+    // background: red;
+    
+    justify-content: center;
+    
+    margin-top: 3em;
+}
+
+.icon-circle{
+    background: #FFFFFD;
+    // background: red;
+    width: 40px;
+    // padding: .3em;
+    padding: .4em .4em;
+    border-radius: 3em;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 1em;
+    border: 1px solid #EBEEF6;
+    // position: relative;
+    // display: inline-block;
+
+    .icon-hovered{
+        display: none;
+        position: absolute;
+        width: 40px;
+        margin-top: -.5em;
+        
+    }
+}
+
+.icon-circle:hover .icon-hovered{
+    display: block;
+   
+}
+
+
+
+footer{
+    p{
+        text-align: center;
+        margin-left: 1.9em;
+        margin-top: 2em;
+        color: hsl(0, 0%, 59%);
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width:850px){
+    
+    form{
+        flex-direction: column;
+        // display: flex;
+        // justify-content: center;
+        align-items: center;
+        // margin-top: 2em;
+    }
+
+    .form-elm{
+        padding: 1.3em 0;
+        outline: none;
+    
+        // display: inline;
+    }
+
+    .first-elm{
+        width: 90%;
+        padding-left: 1.5em;
+        border-radius: 3em;
+        border: 1px solid hsl(0, 0%, 59%);
+    }
+    
+    .second-elm{
+        width: 90%;
+        // padding: 0 3.5em;
+        background: hsl(223, 87%, 63%);
+        color: white;
+        font-size: 1rem;
+        border: none;
+        border-radius: 3em;
+        margin-top: .9em;
+    }
+    
+    .form-elm + .form-elm{
+        margin-left: 0em;
+    }
+
+    .dashboard img{
+        width: 90%;
+        
+    }
+
+    // .icon-circle{
+    //     width: 40px;
+    // }
+}
